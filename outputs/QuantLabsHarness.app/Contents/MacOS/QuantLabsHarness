@@ -1,0 +1,4 @@
+#!/bin/zsh
+APP_DIR="${0:A:h:h}"
+SCRIPT="$APP_DIR/Resources/quantlabs_harness.py"
+exec /usr/bin/env python3 "$SCRIPT"
